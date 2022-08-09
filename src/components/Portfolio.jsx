@@ -1,6 +1,5 @@
 import React from 'react'
 import springbootReact from '../img/springbootReact.png'
-import javaMySQL from '../img/javaMySQL.jpeg'
 
 const Portfolio = () => {
 

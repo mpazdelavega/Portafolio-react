@@ -30,7 +30,7 @@ const NavBar = () => {
   ]
 
   return (
-    <div className='flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed'>
+    <div className='z-10 flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed'>
       <div>
         <h1 className='text-4xl ml-2'>Manuel</h1>
       </div>
@@ -40,7 +40,7 @@ const NavBar = () => {
         {links.map(({ id, link }) => (
           <li
             key={id}
-            className='px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 duration-200'>
+            className='px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 hover:text-white duration-200'>
             <Link to={link} smooth duration={500}>{link}</Link>
           </li>
         ))}
