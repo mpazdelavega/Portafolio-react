@@ -11,7 +11,7 @@ const Portfolio = () => {
     },
     {
       id: 2,
-      src: javaMySQL
+      src: springbootReact
     },
     {
       id: 3,
@@ -19,7 +19,7 @@ const Portfolio = () => {
     },
     {
       id: 4,
-      src: javaMySQL
+      src: springbootReact
     },
     {
       id: 5,
@@ -27,7 +27,7 @@ const Portfolio = () => {
     },
     {
       id: 6,
-      src: javaMySQL
+      src: springbootReact
     },
   ]
 
