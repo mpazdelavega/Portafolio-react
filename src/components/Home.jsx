@@ -36,7 +36,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div>
+        <div className='pb-40 mt-[-100px] 2xl:pb-0 xl:pb-0 lg:pb-0 md:pb-0 sm:pb-0 2xl:mt-0 xl:mt-0 lg:mt-0 md:mt-0 sm:mt-0'>
           <img src={MiImagen} alt="mi perfil" className='rounded-2xl mx-auto w-2/3 md:w-full' />
         </div>
 
