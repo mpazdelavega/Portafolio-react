@@ -1,6 +1,8 @@
 import React from 'react'
 import MiImagen from '../img/yo.png';
 import { MdKeyboardArrowRight } from 'react-icons/md'
+import { AiOutlineCloudDownload } from 'react-icons/ai'
+import { Link } from 'react-scroll'
 
 const Home = () => {
   return (
@@ -14,18 +16,28 @@ const Home = () => {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni vel aliquid beatae consequatur iure deleniti cumque, tenetur quibusdam nobis saepe.
           </p>
 
-          <div>
+          <div className='flex'>
             <button className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer'>
-              Proyectos
+              <Link to='proyectos' smooth duration={500}>Proyectos</Link>
               <span className='group-hover:rotate-90 duration-300'>
-                <MdKeyboardArrowRight size={30} className='ml-1'/>
+                <MdKeyboardArrowRight size={30} className='ml-1' />
               </span>
             </button>
+            <a href="/CV_ManuelPazDeLaVega.pdf" download={true} >
+              <button
+                className='ml-4 group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer'>
+                Descargar CV
+                <span>
+                  <AiOutlineCloudDownload size={30} className='ml-1' />
+                </span>
+              </button>
+            </a>
+
           </div>
         </div>
 
         <div>
-          <img src={MiImagen} alt="mi perfil" className='rounded-2xl mx-auto w-2/3 md:w-full'/>
+          <img src={MiImagen} alt="mi perfil" className='rounded-2xl mx-auto w-2/3 md:w-full' />
         </div>
 
       </div>
