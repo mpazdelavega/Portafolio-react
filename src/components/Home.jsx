@@ -1,5 +1,5 @@
 import React from 'react'
-import MiImagen from '../img/yo.png';
+import MiImagen from '../img/yo3.jpg';
 import { MdKeyboardArrowRight } from 'react-icons/md'
 import { AiOutlineCloudDownload } from 'react-icons/ai'
 import { Link } from 'react-scroll'
